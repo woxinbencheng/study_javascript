@@ -1,0 +1,19 @@
+             javascript导入html的方式
+1，内嵌式
+
+<script type="text/javascript">
+代码（每句结束要有;）
+</script>
+
+2,外联式
+
+(1),外部创建*.js文件
+(2),引入：
+<script src="路径" type="text/javascript"></script>
+
+3，标签属性中
+
+
+4，<a>标签的href中
+             内嵌函数
+alert(arg):弹出对话框输出arg
