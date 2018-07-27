@@ -1,0 +1,20 @@
+                            css
+
+                          css的引入方式:
+1,内嵌式:
+    <style type="text/css">
+    代码,1,每句一行2,key:value3,用;作结束符
+    </style>
+
+2,外链式:
+    1,import 引入外部css文件:
+        <style type="text/css">
+        @import url(path/*.css)
+        </style>
+
+    2,link标签引入:
+        <link rel="stylesheet" href="path/*.css" type="text/css" />
+        
+3,标签属性中:
+    <target style="代码:1,被引号包裹 2,key:value 3,用;分割"></target>
+
